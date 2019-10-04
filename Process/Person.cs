@@ -6,22 +6,20 @@ using System.Threading.Tasks;
 
 namespace Process
 {
-    class Person
+    public class Person
     {
 
-        public Person(int id, string nombre, string Apellido, string fecha, int edad, string sexo, string estado)
+        public Person(string nombre, string apellido, string fecha, int edad, string sexo, string estado)
         {
-            this.Id = id;
-            this.Nombre = nombre;
-            this.Apellido = Apellido;
-            this.Fecha = fecha;
-            this.Edad = edad;
-            this.Sexo = sexo;
-            this.Estado = estado;
+            Nombre = nombre;
+            Apellido = apellido;
+            Fecha = fecha;
+            Edad = edad;
+            Sexo = sexo;
+            Estado = estado;
 
         }
 
-        public int Id { get => Id; set => Id = value; }
         public string Nombre { get => Nombre; set => Nombre = value; }
         public string Apellido { get => Apellido; set => Apellido = value; }
         public string Fecha { get => Fecha; set => Fecha = value; }

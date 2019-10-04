@@ -80,9 +80,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Process\Process.csproj">
+    <ProjectReference Include="..\Process\Procesos.csproj">
       <Project>{30eb9816-5a93-4c06-9a3b-5a45dfae889c}</Project>
-      <Name>Process</Name>
+      <Name>Procesos</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
